@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interactive Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Interactive Web</h1>
+        <p>Created by Joseph Ernest Mshana</p>
+    </header>
+
+    <section class="buttons">
+        <h2>Button Events</h2>
+        <button id="changeTextBtn">Change My Text</button>
+        <button id="hoverBtn">Hover Over Me</button>
+        <button id="secretBtn">Double Click Me</button>
+    </section>
+
+    <section class="keypress-section">
+        <h2>Key Press Detector</h2>
+        <input type="text" id="keyInput" placeholder="Type something...">
+        <p id="keyOutput"></p>
+    </section>
+
+    <section class="gallery">
+        <h2>Image Slideshow</h2>
+        <img id="slideshow" src="https://via.placeholder.com/300x200?text=Image+1" alt="Slideshow Image">
+        <br>
+        <button onclick="prevImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+    </section>
+
+    <section class="tabs">
+        <h2>Tabbed Content</h2>
+        <div class="tab-buttons">
+            <button onclick="showTab('tab1')">Tab 1</button>
+            <button onclick="showTab('tab2')">Tab 2</button>
+            <button onclick="showTab('tab3')">Tab 3</button>
+        </div>
+        <div id="tab1" class="tab-content">This is content for Tab 1.</div>
+        <div id="tab2" class="tab-content" style="display:none;">This is content for Tab 2.</div>
+        <div id="tab3" class="tab-content" style="display:none;">This is content for Tab 3.</div>
+    </section>
+
+    <section class="form-section">
+        <h2>Form Validation</h2>
+        <form id="contactForm">
+            <label>Name: <input type="text" id="name" required></label><br>
+            <label>Email: <input type="email" id="email" required></label><br>
+            <label>Password: <input type="password" id="password" required></label><br>
+            <button type="submit">Submit</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>Crafted by <a href="https://github.com/VA-Joseph" target="_blank">Joseph Ernest Mshana</a> | 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

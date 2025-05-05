@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header,
+section,
+footer {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h1,
+h2 {
+    color: #2980b9;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input {
+    margin: 5px;
+    padding: 8px;
+}
+
+.tab-buttons button {
+    background: #ccc;
+    border: none;
+}
+
+.tab-content {
+    padding: 10px;
+    background: #e3e3e3;
+    margin-top: 10px;
+}
+
+#slideshow {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
